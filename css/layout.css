@@ -186,7 +186,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: linear-gradient(#161415, #474747);
+   background: linear-gradient(#b6dee5, #ffffff);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -197,7 +197,7 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 32px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: rgb(56, 55, 55);
    margin-bottom: 12px;
 }
 #about p {
@@ -206,9 +206,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 100%;
+   height: 100%;
+   border-radius: 20%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
