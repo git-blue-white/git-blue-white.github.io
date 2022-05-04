@@ -209,6 +209,7 @@ ul#nav li.current a { color: #F06000; }
    width: 100%;
    height: 100%;
    border-radius: 20%;
+   box-shadow: 0px 5px 5px rgba(134, 134, 134, 0.4);
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -267,9 +268,10 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info {
    font: 18px/24px 'librebaskerville', serif;
-   color: #6E7881;
+   color: #004400;
    margin-bottom: 18px;
    margin-top: 9px;
+   
 }
 #resume .info span {
    margin-right: 5px;
@@ -566,7 +568,8 @@ ul#nav li.current a { color: #F06000; }
    background: #fff;
    overflow: hidden;
    position: relative;
-
+   box-shadow: 0 5px 0 0 #9fd8e166;
+   border-radius: 3%;
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1142,4 +1145,25 @@ footer .social-links li:first-child { margin-left: 0; }
 
 .seconddiv {
    float: right;
+}
+
+.row.item.treestones {
+   background-color: #d0ffeb;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.row.item.imaginarycloud {
+   background-color: #b6f0ff;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.row.item.sintrabusiness {
+   background-color: #fffde7;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
 }
