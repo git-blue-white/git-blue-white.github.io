@@ -149,7 +149,7 @@ ul#nav {
    width: auto;
 
    /* center align the menu */
-   text-align: center;
+   text-align: right;
 }
 ul#nav li {
    position: relative;
