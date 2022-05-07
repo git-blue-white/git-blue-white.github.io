@@ -1149,7 +1149,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 .row.item.treestones {
    background-color: #d0ffeb;
-   background-position: center;
+   background-position: right;
    background-repeat: no-repeat;
    background-size: contain;
 }
